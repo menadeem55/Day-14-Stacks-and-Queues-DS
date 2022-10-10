@@ -1,11 +1,11 @@
 package com.queue.ds;
 
-public class Queue {
+public class Stack {
 	
 			LinkedList list = new LinkedList();
 			
-			public void enQueue(Object data) {
-				list.addFirst(data);
+			public void push(Object data) {
+				list.addLast(data);
 				
 			}
 			public void display() {
@@ -13,10 +13,10 @@ public class Queue {
 			}
 	public static void main(String[] args) {
 		System.out.println("Welcome to Stack and Queue Data structure");
-		Queue queue = new Queue();
-		queue.enQueue(70);
-		queue.enQueue(30);
-		queue.enQueue(56);
+		Stack queue = new Stack();
+		queue.push(56);
+		queue.push(30);
+		queue.push(70);
 		queue.display();
 		
 	}
