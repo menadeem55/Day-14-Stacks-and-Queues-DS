@@ -6,7 +6,6 @@ public class LinkedList {
 
 	Node head;
 	class Node 
-	
 	{
 		Object data;
 		Node ref;
